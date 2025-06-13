@@ -5,3 +5,7 @@ scripts do Node, que é o npx;
 aplicação sendo gerada;
     Podemos iniciar a aplicação com npm start;
     Vamos ver na prática;
+
+    O jeito mais comum e mais rápido seria usar o comando npm create vite@latest
+    Depois de seguir as opções disponíveis 
+    rode o projeto com npm run dev
