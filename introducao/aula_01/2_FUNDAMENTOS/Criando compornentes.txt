@@ -1,0 +1,8 @@
+        Criando componentes
+    Na maioria dos projetos os componentes ficam em uma pasta chamada
+<componentes>, que devemos criar;
+    Geralemnte são nomeados com a "camel case": FirstComponent.js;
+    No arquivo criamos uma função, que contém o código deste componente
+(a lógica e o template);
+    E também precisamos exportar esta função, para reutilizá-lo;
+    Vamosver na prática;
