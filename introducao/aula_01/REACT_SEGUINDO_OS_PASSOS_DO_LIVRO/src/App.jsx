@@ -7,12 +7,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <h1 class="App" style={{color: 'blue'}}>Fundamentos React</h1>
-      </div>
-  
-    </>
+    <div class="App">
+      <h1>Bem-vindo ao nosso projeto React com Vite</h1>
+      <p>Esta é a nossa primeira interação com o React. Em breve, adicionaremos mais funcionalidades!</p>
+    </div>
+     
   )
 }
 
