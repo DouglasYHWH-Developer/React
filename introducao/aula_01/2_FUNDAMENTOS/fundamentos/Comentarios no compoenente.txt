@@ -1,0 +1,7 @@
+        Comentários no compoenente
+    Podemos inserir comentários de duas maneiras no componente;
+    Na parte da função, onde é executada a lógica, a sintaxe é: //algum comentário;
+    E também no JSX: {/*Algum comentpario*/}
+    As chaves nos permitem executar setenças em JS, veremos
+isso mais adiante;
+    Vamos testar os comentários!
