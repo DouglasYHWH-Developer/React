@@ -1,0 +1,8 @@
+        Importando componente
+    A importação é a maneira que temos de reutilizar o cpomponente;
+    Utilizamos a sintaxe: import X from './componentes/X' onde X
+é o nome do componente;
+    Para colocar o componente importado em outro componente, precisamos 
+colocá-lo em forma de tag: <FirstComponent />
+    E então finalizamos o ciclo de importação;
+    Vamos importar o FirstComponent em App.
