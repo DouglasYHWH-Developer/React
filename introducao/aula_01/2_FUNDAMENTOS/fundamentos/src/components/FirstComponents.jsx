@@ -1,3 +1,5 @@
+import MyComponent from "./MyComponent";
+
 const FirstComponent = () => {
     // essa funçãi faz isso
     /** 
@@ -8,6 +10,7 @@ const FirstComponent = () => {
         <div>
             {/*Algum comentário*/}
             <h1>Meu primeiro componente</h1>
+            <MyComponent />
         </div>
     ); 
 };
