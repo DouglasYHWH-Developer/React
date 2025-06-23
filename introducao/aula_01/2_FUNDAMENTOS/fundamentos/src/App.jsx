@@ -1,4 +1,6 @@
 import FirstComponent from './components/FirstComponents'
+import TemplateExpressions from './components/TemplateExpressions'
+
 import './App.css'
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
         <h1 class="App">Fundamentos React</h1>
         <p className="teste">Meu texto</p>
         <FirstComponent />
+        <TemplateExpressions />
       </div>
     
     </>
