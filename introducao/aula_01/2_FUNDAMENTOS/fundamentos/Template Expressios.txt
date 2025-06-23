@@ -1,0 +1,8 @@
+        Template Expressions
+    Template Expressions é o recurso que nos permite executar JS no JSX
+e também interpolar variáveis;
+    Isso será muito útil ao longo dos seus projetos em React;
+    A sintaxe é: {algumCodigoEmJS}
+    Tudo que está entre chaves é processado em JS e nos retorna
+um resultado;
+    Vamos ver na prática!
