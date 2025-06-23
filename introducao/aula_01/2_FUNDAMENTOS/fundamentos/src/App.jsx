@@ -6,11 +6,12 @@ function App() {
 
   return (
     <>
-      <FirstComponent />
       <div>
         <h1 class="App">Fundamentos React</h1>
+        <p className="teste">Meu texto</p>
+        <FirstComponent />
       </div>
-  
+    
     </>
   )
 }
