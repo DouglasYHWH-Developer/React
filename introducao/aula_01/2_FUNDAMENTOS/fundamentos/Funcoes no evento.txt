@@ -1,0 +1,6 @@
+                Funcoes no evento
+        Quando as funções são simples, podemos realizar a lógica no próprio
+evento;
+        Isso torna nosso código mais 'complicado', por atrelar lógica com HTML;
+        Mas ema lgumas situações é aplicável;
+        Vamos ver na prática!
