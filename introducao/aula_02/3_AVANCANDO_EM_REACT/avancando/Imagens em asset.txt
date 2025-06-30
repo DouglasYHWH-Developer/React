@@ -1,0 +1,8 @@
+        Imagens em asset
+    A pasta public pode ser utilizada para colcoar imagens, como fizemos 
+na aula passada;
+    Mas um padrão bem utilizado para imagens dos projetos é colocar em 
+uma pasta chamada assets, em src;
+    Ouseja, você vai encontar projetos com as duas abordagens;
+    Em assets precisamos importar as imagens, e o src dinâmico com o 
+nome de importação;
