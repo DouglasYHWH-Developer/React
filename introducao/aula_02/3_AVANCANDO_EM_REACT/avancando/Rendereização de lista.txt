@@ -1,0 +1,6 @@
+        Rendereização de lista
+    Uma outra ação bem comum é renderizar listas de dadosno template;
+    Fazemos isso com os dados com tipo de array;
+    Utilizando o método map para nos auxiliar;
+    Além dos dados, podemos inserir JSX em cada iteração;
+    Vamos ver na prática!
