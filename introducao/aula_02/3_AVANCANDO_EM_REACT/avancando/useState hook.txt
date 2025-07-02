@@ -1,7 +1,7 @@
         useState hook
     O hook de usestate é um dos mais utilizados;
     Utilizamos para genrenciar o estado de algum dado, variáveis não
-funcionam corretamente, ocomponente não re-renderiza.
+funcionam corretamente, o componente não re-renderiza.
     Para guardar o dado definimos o nome da variável e para alterar Vamos
 utilizar setNomne, onde nome é o nome do nosso dado;
     Vamos ver na prática;

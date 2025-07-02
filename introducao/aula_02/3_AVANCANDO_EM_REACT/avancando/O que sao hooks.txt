@@ -6,3 +6,5 @@
         Os hooks precisam ser importados;
         Geralmente são úteis em todas as aplicações, utilizaremos 
 diversos ao longo do curso;
+
+hook são comos ganchos ou gatilhos.
