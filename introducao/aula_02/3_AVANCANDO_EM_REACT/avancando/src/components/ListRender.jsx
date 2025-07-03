@@ -1,8 +1,9 @@
 import { use, useState } from "react"
 
       const ListRender = () => {
-        const [list, setList] = useState(["Matheus", "Pedro", "Josias"]);
-      return (
+        const [list, setList] = useState(["Matheus", "Pedro", "Josias", "Maria"]);
+      
+        return (
         <div>
             <ul>
              {list.map((item) => (
