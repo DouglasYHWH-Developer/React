@@ -19,14 +19,16 @@ const [userName] = useState("Maria")
         <div>
           <img src="/img1.jpg" alt="Paisagem"/>
         </div>
-        {/* imagem em public */}
+        {/* imagem em assets */}
         <div>
           <img src={City} alt="Cidade"/>
         </div>
         <ManageData />
         <ListRender />
         <ConditionalRender />
+        {/* props */}
         <ShowUserName name={userName} />
+        {/* destructuring props */}
         <CarDetails />
       </div>
     
