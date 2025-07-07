@@ -29,7 +29,7 @@ const [userName] = useState("Maria")
         {/* props */}
         <ShowUserName name={userName} />
         {/* destructuring props */}
-        <CarDetails />
+        <CarDetails brand="VW" km={100000} color="Azul" />
       </div>
     
   )
