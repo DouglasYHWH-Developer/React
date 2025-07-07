@@ -1,0 +1,8 @@
+        Desestruturando props
+    É super comum passar mais de uma prop em um componente;
+    Para facilitar isso o React nos permite desestruturar as propriedades
+que chegam, com o recurso de destruturing;
+    Se temos duas props: nage e age;
+    Podemos fazer assim "function MyComponent({name, age})"
+    Agora não precisamos mais utilizar porps.algumaCoisa;
+    Vamos ver na prática!
