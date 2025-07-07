@@ -5,7 +5,7 @@ import ConditionalRender from "./components/ConditionalRender";
 import ListRender from "./components/ListRender";
 import ManageData from "./components/ManageData";
 import ShowUserName from "./components/ShowUserName";
-
+import CarDetails from "./components/CarDetails";
 
 function App() {
 const name = "Joaquim";
@@ -27,6 +27,7 @@ const [userName] = useState("Maria")
         <ListRender />
         <ConditionalRender />
         <ShowUserName name={userName} />
+        <CarDetails />
       </div>
     
   )
