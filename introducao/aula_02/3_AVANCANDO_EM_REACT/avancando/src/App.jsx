@@ -29,7 +29,10 @@ const [userName] = useState("Maria")
         {/* props */}
         <ShowUserName name={userName} />
         {/* destructuring props */}
-        <CarDetails brand="VW" km={100000} color="Azul" />
+        <CarDetails brand="VW" km={100000} color="Azul" newCar={false} />
+        {/* reaproveitando */}
+        <CarDetails brand="Ford" km={0} color="Vermelha" newCar={true}/>
+        <CarDetails brand="Fiat" km={4500} color="Branco" newCar={false}/>
       </div>
     
   )
