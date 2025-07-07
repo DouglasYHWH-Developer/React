@@ -1,0 +1,6 @@
+        Adicionando um else
+    podemos também realizar um if/else o JSX;
+    Aqui devemos utilizar o if ternário;
+    Onde temos a sintax: condição ? bloco : bloco 2;
+    Vamos ver na prática;
+    
