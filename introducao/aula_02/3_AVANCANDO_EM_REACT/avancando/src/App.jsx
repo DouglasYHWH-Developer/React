@@ -6,6 +6,7 @@ import ListRender from "./components/ListRender";
 import ManageData from "./components/ManageData";
 import ShowUserName from "./components/ShowUserName";
 import CarDetails from "./components/CarDetails";
+import Fragment from "./components/Fragment";
 
 function App() {
 const name = "Joaquim";
@@ -49,6 +50,8 @@ const [userName] = useState("Maria")
             newCar={car.newCar} 
           />
         ))}
+         {/* fragment */}
+        <Fragment />
       </div>
     
   )
