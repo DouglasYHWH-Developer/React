@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import "./App.css";
 import City from "./assets/city.jpg"
 import ConditionalRender from "./components/ConditionalRender";
