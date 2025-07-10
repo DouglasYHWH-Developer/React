@@ -2,27 +2,29 @@ import { useState } from "react"
         
         const Painel = () => {
 
-            const [nome, setNome] = useState("Douglas")
-            const [mensagem, setMensagem] = useState(false)
+          const [nome, setNome] = useState("Douglas");
+          const [mensagem, setMensagem] = useState(false)
 
-            const alterarNome = () =>{
-                setNome('Novo usuário')
-            }
+          const alteraNome = () => {
+            let nome = "João"
+            setNome(nome)
+          }
 
-            const alterarMensagem = () =>{
-                setMensagem(!mensagem)
-            }
+          const alteraMensagem = () =>{
+            let message = "olá mundo"
+            setMensagem(message)
+          }
 
-          return (
-            <>
-               <h1>{nome} </h1>
-               <button onClick={alterarNome}>Alterar nome</button>
-               <button onClick={alterarMensagem}>
-                    {mensagem ? "Ocultar mensagem" :"Mostrar mensagem"}
-               </button>
-               {mensagem && <p>Você está aprendendo React!</p>}
-            </>
+          return(
+            <div>
+                <h1>{nome}</h1>
+                <button onClick={alteraNome}>Altera nome</button>
+                <button onClick={alteraMensagem}>Altera mensagem</button>
+                {mensagem && <p>Parabéns a mensagem apareceu</p>}
+            </div>
+
           )
+          
         }
         
-        export default Painel
+        export default Painel;

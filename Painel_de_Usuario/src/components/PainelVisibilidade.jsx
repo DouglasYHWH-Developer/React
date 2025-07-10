@@ -2,20 +2,21 @@ import React, { useState } from 'react'
 
 const PainelVisibilidade = () => {
 
-    const[mensagem, setMensagem] = useState(false)
-    const alterarMensagem = () => {
-        setMensagem(!mensagem)
-    }
-  return (
-    <div>
-        <h3>{mensagem}</h3>
-        <button onClick={alterarMensagem}>
-            {mensagem ? "Ocultar conteúdo" : "Mostrar conteúdo"}
-        </button>
-        {mensagem && <p>Parabéns! A frase apareceu</p>}
-    </div>
+  const [frase, setFrase] = useState(false)
 
-  )
+  const alteraFrase = () =>{
+    setFrase(!frase)
+  }
+
+    return(
+      <div>
+        <button onClick={alteraFrase}>
+          {frase ? 'Ocultar conteúdo':'Mostrar conteúdo'}
+        </button>
+
+        {frase && <p>A frase apareceu {frase}</p>}
+      </div>
+    )
 }
 
 export default PainelVisibilidade;
