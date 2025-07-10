@@ -1,0 +1,21 @@
+Crie um componente React chamado PainelDeVisibilidade com as seguintes regras:
+
+✅ Regras:
+Mostre uma frase: "Conteúdo secreto liberado!"
+
+Tenha um botão que alterna entre mostrar e ocultar essa frase.
+
+O texto do botão deve mudar de acordo com o estado:
+
+Se o conteúdo estiver visível, o botão mostra "Ocultar conteúdo"
+
+Se estiver oculto, o botão mostra "Mostrar conteúdo"
+
+🔧 Dica:
+Você só vai precisar de:
+
+Um useState com valor booleano (true ou false)
+
+Uma função para inverter esse estado
+
+Renderização condicional com &&
