@@ -1,0 +1,10 @@
+        🚀 Bora fixar com um mini-projeto?
+Te proponho criarmos juntos um componente chamado "Painel de Usuário" que:
+
+Exibe um nome com useState
+
+Altera o nome com um botão
+
+Mostra ou esconde uma mensagem com useState e renderização condicional
+
+Usa fragmento para não poluir o HTML
