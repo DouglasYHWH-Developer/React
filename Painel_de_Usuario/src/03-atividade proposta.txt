@@ -1,0 +1,35 @@
+🎯 Desafio: Lista de Compras
+Crie um componente chamado ListaDeCompras com as seguintes funcionalidades:
+
+✅ Regras:
+O componente começa com um array de 3 itens (ex: “Arroz”, “Feijão”, “Macarrão”).
+
+Renderize essa lista em uma <ul>.
+
+Adicione um botão "Remover último item", que ao ser clicado:
+
+Remove o último item da lista
+
+Se a lista estiver vazia, mostra a mensagem: "Lista vazia!"
+
+🧠 Dicas:
+Use useState com um array como valor inicial
+
+Para remover o último item, você pode usar .slice(0, -1)
+
+Faça renderização condicional para mostrar a mensagem caso a lista esteja vazia
+
+Exemplo visual esperado:
+diff
+Copiar
+Editar
+🛒 Lista de Compras:
+- Arroz
+- Feijão
+- Macarrão
+
+[Remover último item]
+
+(ao clicar várias vezes)
+
+🛒 Lista vazia!
