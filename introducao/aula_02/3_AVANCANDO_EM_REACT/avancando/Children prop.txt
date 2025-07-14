@@ -1,0 +1,6 @@
+        Children prop   
+    Children prop é um recurso utlizado para quando um componente
+precisa ter JSX dentro dele;
+    Porém este JSC vem do componente Pai;
+    Então o componente age como container, abraçando estes elementos;
+    E children é considerada uma prop do componente;
