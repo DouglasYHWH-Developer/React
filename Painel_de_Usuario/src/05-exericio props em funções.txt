@@ -1,0 +1,6 @@
+🎯 Próxima Etapa: Componente que recebe props de conteúdo
+Vamos criar um componente chamado Mensagem, que:
+
+Recebe dois props: titulo e texto
+
+Exibe ambos dentro de um layout simples
