@@ -8,6 +8,7 @@ import ShowUserName from "./components/ShowUserName";
 import CarDetails from "./components/CarDetails";
 import Fragment from "./components/Fragment";
 import Container from "./components/Container";
+import ExecuteFunction from "./components/ExecuteFunction";
 
 function App() {
 const name = "Joaquim";
@@ -17,6 +18,10 @@ const cars = [
   {id: 2, brand: "KIA", color: "Branco", newCar: false, km: 34343},
   {id: 3, brand: "Renault", color: "Azul", newCar: false, km: 234},
 ]
+
+function showMessage(){
+  console.log('Evento do compoennete pai')
+}
 
 const [userName] = useState("Maria")
   return (
@@ -45,6 +50,7 @@ const [userName] = useState("Maria")
         {/* loop em array de objtos */}
         {cars.map((car) => (
           <CarDetails 
+            key={car.id}
             brand={car.brand} 
             color={car.color} 
             km={car.km} 
@@ -60,6 +66,8 @@ const [userName] = useState("Maria")
         <Container myValues={"Testing"}>
          <h5>Testatndo container</h5>
         </Container>
+        {/* executar função */}
+        <ExecuteFunction myFunction={showMessage} />
       </div>
     
   )
