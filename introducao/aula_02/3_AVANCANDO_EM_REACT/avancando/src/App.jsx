@@ -7,6 +7,7 @@ import ManageData from "./components/ManageData";
 import ShowUserName from "./components/ShowUserName";
 import CarDetails from "./components/CarDetails";
 import Fragment from "./components/Fragment";
+import Container from "./components/Container";
 
 function App() {
 const name = "Joaquim";
@@ -53,8 +54,11 @@ const [userName] = useState("Maria")
          {/* fragment */}
         <Fragment propFragment="teste"/>
         {/* Children */}
-        <Container>
-
+        <Container myValues={"Testing"}>
+         <p>E este é o conteudo</p>
+        </Container>
+        <Container myValues={"Testing"}>
+         <h5>Testatndo container</h5>
         </Container>
       </div>
     
