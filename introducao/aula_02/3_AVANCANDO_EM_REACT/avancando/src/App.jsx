@@ -1,4 +1,5 @@
-import { useState} from "react";
+import {useState} from "react";
+import UserDetails from "./components/UserDetails";
 {/*import "./App.css";
 import City from "./assets/city.jpg"
 import ConditionalRender from "./components/ConditionalRender";
@@ -14,7 +15,13 @@ import ChangeMessageState from "./components/ChangeMessageState";
 */}
 
 function App() {
-{const name = "Joaquim";
+
+const [pessoas, setPessoas] = useState([
+  {id: 1, nome:"Douglas", idade: 31, profissao: "Dev Fullstack"},
+  {id: 2, nome:"Magalhães", idade: 45, profissao: "Dev Backend"},
+  {id: 3, nome:"Pedro" , idade: 17, profissao: "Estagiário de TI"},
+])
+{/*const name = "Joaquim";
 
 const cars = [
   {id: 1, brand: "Ferrari", color: "amarela", newCar: true, km: 0},
@@ -32,10 +39,20 @@ const handleMessage = (msg) => {
   setMessage(msg);
 }
 
-const [userName] = useState("Maria")
+const [userName] = useState("Maria")*/}
+
   return (
     
       <div className="App">
+        {pessoas.map((user) =>(
+          <UserDetails 
+          key={user.id} 
+          nome={user.nome}
+          idade={user.idade}
+          profissao={user.profissao}
+
+        />
+        ))}
 {/*
         <h1>Avançando em React</h1>
          imagem em public 
@@ -83,6 +100,9 @@ const [userName] = useState("Maria")
       </div>
   
   )
-}}
+}
 
 export default App;
+
+
+
