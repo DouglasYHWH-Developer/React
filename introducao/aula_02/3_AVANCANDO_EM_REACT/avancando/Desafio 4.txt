@@ -1,0 +1,8 @@
+        Desafio 4
+    1. Crie um array de objetos composto de pessoas, com as propriedades de:
+nome, idade e profissão(array com pelo menos 3 itens);
+    2. Os dados devem ser exividos em um componente UserDetails, que vc
+deve criar, todas informações devem, ser exibidas;
+    3. Faça uma renderização condicional que exibe se o usuário pode 
+tirar carteira de hbilitação ou não, imprima isso também no componente.
+    4. A informação pode ser exibida num parágrafo(checar se a idade >= 18)

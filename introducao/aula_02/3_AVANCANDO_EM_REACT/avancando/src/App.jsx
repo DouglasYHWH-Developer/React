@@ -1,5 +1,5 @@
 import { useState} from "react";
-import "./App.css";
+{/*import "./App.css";
 import City from "./assets/city.jpg"
 import ConditionalRender from "./components/ConditionalRender";
 import ListRender from "./components/ListRender";
@@ -11,9 +11,10 @@ import Container from "./components/Container";
 import ExecuteFunction from "./components/ExecuteFunction";
 import Message from "./components/Message";
 import ChangeMessageState from "./components/ChangeMessageState";
+*/}
 
 function App() {
-const name = "Joaquim";
+{const name = "Joaquim";
 
 const cars = [
   {id: 1, brand: "Ferrari", color: "amarela", newCar: true, km: 0},
@@ -35,27 +36,27 @@ const [userName] = useState("Maria")
   return (
     
       <div className="App">
-
+{/*
         <h1>Avançando em React</h1>
-        {/* imagem em public */}
+         imagem em public 
         <div>
           <img src="/img1.jpg" alt="Paisagem"/>
         </div>
-        {/* imagem em assets */}
+         imagem em assets 
         <div>
           <img src={City} alt="Cidade"/>
         </div>
         <ManageData />
         <ListRender />
         <ConditionalRender />
-        {/* props */}
+        {/* props }
         <ShowUserName name={userName} />
-        {/* destructuring props */}
+        {/* destructuring props }
         <CarDetails brand="VW" km={100000} color="Azul" newCar={false} />
-        {/* reaproveitando */}
+        {/* reaproveitando }
         <CarDetails brand="Ford" km={0} color="Vermelha" newCar={true}/>
         <CarDetails brand="Fiat" km={4500} color="Branco" newCar={false}/>
-        {/* loop em array de objtos */}
+        {/* loop em array de objtos }
         {cars.map((car) => (
           <CarDetails 
             key={car.id}
@@ -65,23 +66,23 @@ const [userName] = useState("Maria")
             newCar={car.newCar} 
           />
         ))}
-         {/* fragment */}
+         {/* fragment }
         <Fragment propFragment="teste"/>
-        {/* Children */}
+        {/* Children }
         <Container myValues={"Testing"}>
          <p>E este é o conteudo</p>
         </Container>
         <Container myValues={"Testing"}>
          <h5>Testatndo container</h5>
         </Container>
-        {/* executar função */}
+        {/* executar função }
         <ExecuteFunction myFunction={showMessage} />
-        {/* state lift */}
+        {/* state lift }
         <Message msg={message}/>
-        <ChangeMessageState handleMessage={handleMessage}/>
+        <ChangeMessageState handleMessage={handleMessage}/>*/}
       </div>
-    
+  
   )
-}
+}}
 
 export default App;
