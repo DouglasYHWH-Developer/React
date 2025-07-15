@@ -1,8 +1,8 @@
-import React from 'react'
-
-const Message = () => {
+const Message = ({msg}) => {
   return (
-    <div>Message</div>
+    <div>
+        A mensagem é: {msg}
+    </div>
   )
 }
 

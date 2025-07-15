@@ -76,7 +76,7 @@ const [userName] = useState("Maria")
         {/* executar função */}
         <ExecuteFunction myFunction={showMessage} />
         {/* state lift */}
-        <Message />
+        <Message msg={message}/>
       </div>
     
   )
