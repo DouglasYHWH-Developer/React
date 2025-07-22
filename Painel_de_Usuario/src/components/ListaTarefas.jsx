@@ -17,11 +17,11 @@ const ListaTarefas = () => {
     <div>
        <ul>
         {tarefas.map((item, i) => (
-            <li key={i}>{item}<button onClick={removeList}>remove</button></li>
+            <li key={i}>{item}</li>
         ))}
-        {!tarefas.length && <p>Lista vazia</p>}
        </ul>
-       
+       {!tarefas.length && <p>Lista vazia</p>}
+       <button onClick={removeList}>remove</button>
     </div>
   )
 }
