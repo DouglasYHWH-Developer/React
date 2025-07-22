@@ -16,8 +16,8 @@ const ListaTarefas = () => {
   return (
     <div>
        <ul>
-        {tarefas.map((item) => (
-            <li>{item}<button onClick={removeList}>remove</button></li>
+        {tarefas.map((item, i) => (
+            <li key={i}>{item}<button onClick={removeList}>remove</button></li>
         ))}
         {!tarefas.length && <p>Lista vazia</p>}
        </ul>
