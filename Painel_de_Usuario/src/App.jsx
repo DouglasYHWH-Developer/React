@@ -4,15 +4,17 @@ import ListaDeCompras from './components/ListaDeCompras'
 import Painel from './components/Painel'
 import PainelVisibilidade from './components/PainelVisibilidade'
 import Mensagem from './components/Mensagem'
+import ListaTarefas from './components/ListaTarefas'
 
 function App() {
 
-  function mostrarMensagem() {
+  {/*function mostrarMensagem() {
     console.log("Mensagem")
-  }
+  }*/}
 
   return (
     <>
+       <ListaTarefas />
      { /*<Painel />*/}
      {/*<PainelVisibilidade />*/}
      {/*<ListaDeCompras />*/}
@@ -22,12 +24,12 @@ function App() {
       <p>Este conteúdo está sendo passado como children para o Layout.</p>
      </Layout>}
      {/* props em funções */}
-     <Mensagem 
+     {/*<Mensagem 
       titulo={"Testando o props"} 
       texto={"Pelo visto funcionou"} 
       myFunction={mostrarMensagem}
-    />
-  
+    />*/}
+   
     
     </>
   )

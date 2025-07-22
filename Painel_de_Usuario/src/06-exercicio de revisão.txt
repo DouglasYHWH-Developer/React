@@ -1,0 +1,8 @@
+Passo a passo do que deve fazer:
+Crie um componente ListaTarefas.
+
+Dentro dele, defina um estado tarefas como um array com 3 strings (exemplo: ['Estudar React', 'Fazer exercício', 'Ler livro']).
+
+Renderize essa lista na tela, usando .map(), mostrando cada tarefa com um botão “Remover” ao lado.
+
+Ao clicar no botão “Remover” de uma tarefa, essa tarefa deve ser removida da lista (ou seja, atualizar o estado).
