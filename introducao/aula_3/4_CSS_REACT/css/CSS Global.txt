@@ -1,0 +1,7 @@
+        CSS Global
+    o CSS Global é utilizado para estilizar diversos elementos elemento
+em comum ou fazer um reset no CSS;
+    Utilizamos o arquivo index.css para isso;
+    Ele está na pasta src;
+    Vamos ver na prática!
+    
