@@ -1,0 +1,6 @@
+        CSS modules
+    O CSS Modules é um recurso de CSS scoped;
+    Ou seja, ele vai ser excluisivo do componente;
+    O nome do arquivo é componente.modules.css;
+    Precisamos improtá-lo também no componente;
+    Vamos ver na prática!
