@@ -5,6 +5,8 @@ import MyComponent from './components/MyComponent'
 function App() {
   const n = 15;
   const [name] = useState("Douglas")
+
+  const redTitle = true;
   
   return (
     <>
@@ -34,6 +36,10 @@ function App() {
           ? ({color: "green", backgroundColor: "#000"}) 
           : null}>
             Teste dinâmico
+        </h2>
+        {/* Classe dinâmica */}
+        <h2 className={!redTitle ? "red-title" : "title"}>
+          Este título vai ter classe dinâmica
         </h2>
      </div>
     </>
