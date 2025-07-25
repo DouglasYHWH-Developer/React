@@ -1,18 +1,13 @@
 import styles from "./CarDetails.module.css"
 
 const CarDetails = ({brand, color}) => {
+  
   return (
     <div>
         <ul>
-            {brand === "Ferrari" ? <li className={styles.ferrari}>
-                Marca: {brand}</li> || 
-                brand ==="KIA" ?
-                <li className={styles.kia}>
-                    Marca: {brand}
-                </li>
-            }
-            
-            
+            <li className={styles.ferrari}>Marca: {brand} Cor: {color}</li>
+            <li className={styles.kia}>Marca: {brand} Cor: {color}</li>
+            <li className={styles.renault}>Marca: {brand} Cor: {color}</li>
         </ul>
     </div>
   )
