@@ -1,0 +1,10 @@
+riar um componente Layout que tem:
+
+✅ Cabeçalho fixo
+
+✅ Área de conteúdo (que usa props.children)
+
+✅ Rodapé fixo
+
+E usar esse Layout no App.jsx, passando conteúdo diferente dentro.
+
