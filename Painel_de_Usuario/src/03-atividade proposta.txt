@@ -19,10 +19,7 @@ Para remover o último item, você pode usar .slice(0, -1)
 
 Faça renderização condicional para mostrar a mensagem caso a lista esteja vazia
 
-Exemplo visual esperado:
-diff
-Copiar
-Editar
+
 🛒 Lista de Compras:
 - Arroz
 - Feijão

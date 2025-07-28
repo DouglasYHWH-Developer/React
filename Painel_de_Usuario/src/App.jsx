@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-     { /*<Painel />*/}
-     {/*<PainelVisibilidade />*/}
+     <Painel />
+     <PainelVisibilidade />
      <ListaDeCompras />
     </>
   )
