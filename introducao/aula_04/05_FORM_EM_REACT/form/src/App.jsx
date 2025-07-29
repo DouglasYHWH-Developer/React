@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div class="app">
+    <div className="App">
       <h2>Form</h2>
       <MyForm />
     </div>
