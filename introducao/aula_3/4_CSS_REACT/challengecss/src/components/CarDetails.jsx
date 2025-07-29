@@ -1,14 +1,12 @@
 import styles from "./CarDetails.module.css"
 
-const CarDetails = ({brand, color}) => {
+const CarDetails = ({car}) => {
   
   return (
-    <div>
-        <ul>
-            <li className={styles.ferrari}>Marca: {brand} Cor: {color}</li>
-            <li className={styles.kia}>Marca: {brand} Cor: {color}</li>
-            <li className={styles.renault}>Marca: {brand} Cor: {color}</li>
-        </ul>
+    <div className={styles.card}>
+        <h1>{car.name}</h1>
+        <p>KM: {car.km}</p>
+        <p>Cor: {car.color}</p>
     </div>
   )
 }

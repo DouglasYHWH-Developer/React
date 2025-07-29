@@ -14,11 +14,7 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-     <Painel />
-     <PainelVisibilidade />
-     <ListaDeCompras />
-=======
+    
        <ListaTarefas />
      { /*<Painel />*/}
      {/*<PainelVisibilidade />*/}
@@ -36,7 +32,7 @@ function App() {
     />*/}
    
     
->>>>>>> 02fb3fa46b5a6ccbade9046a6ddb8d381149bee0
+
     </>
   )
 }

@@ -1,14 +1,6 @@
-.ferrari{
-    background-color: #111;
-    color: red
-}
-
-.kia{
-    background-color: #000;
-    color: #fff
-}
-
-.renault{
-    background-color: #000;
-    color: gold
+.card{
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 10px;
 }
