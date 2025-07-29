@@ -10,13 +10,13 @@ function App() {
   ]
 
   return (
-      <div className="App">
+      <div>
         <h1>Desafio 5</h1>
-          <div className="car-container">
-            {myCars.map((car) => (
-              <CarDetails car={car}/>
-            ))}
-          </div>  
+        <div className="car-container">
+          {myCars.map((car)=> (
+          <CarDetails car={car}/>
+        ))}
+        </div>
       </div>
   )
 }

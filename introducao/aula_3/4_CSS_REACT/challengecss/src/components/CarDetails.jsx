@@ -4,11 +4,11 @@ const CarDetails = ({car}) => {
   
   return (
     <div className={styles.card}>
-        <h1>{car.name}</h1>
-        <p>KM: {car.km}</p>
+        <h2>{car.name}</h2>
+        <p>Km: {car.km}</p>
         <p>Cor: {car.color}</p>
     </div>
   )
 }
 
-export default CarDetails
+export default CarDetails;
