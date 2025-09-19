@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./MyForm.module.css"
 
 const MyForm = ({user}) => {
-  // + - Controlled inputs
+  // 6 - Controlled inputs
 
 
 
@@ -59,8 +59,14 @@ const MyForm = ({user}) => {
             {/* 8 - textarea*/}
             <label htmlFor="bio">
               <span>Bio: </span>
-              <textarea name="bio" placeholder="Descrição do usuário" onChange={(e) => setBio(e.target.value) } value={bio}>
-
+              <textarea 
+                name="bio" 
+                placeholder="Descrição do usuário" 
+                onChange={
+                  (e) => setBio(e.target.value) 
+                  } 
+                value={bio}
+              >
               </textarea>
             </label>
             {/* 9 - input de select */}
