@@ -1,10 +1,10 @@
 
 import React from 'react'
 
-const game = () => {
+const Game = () => {
   return (
-    <div>game</div>
+    <div>G</div>
   )
 }
 
-export default game
+export default Game
