@@ -1,9 +1,9 @@
-import React from 'react'
+import './GameOver.css'
 
-const End = () => {
+const GameOver = () => {
   return (
-    <div>End</div>
+    <div>GameOver</div>
   )
 }
 
-export default End
+export default GameOver

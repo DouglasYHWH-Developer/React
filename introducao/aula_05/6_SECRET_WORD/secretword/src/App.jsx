@@ -9,6 +9,8 @@ import {wordsList} from './data/words';
 
 //components
 import StartScreen from './components/StartScreen'
+import Game from './components/game';
+import GameOver from './components/GameOver';
 
 
 const stages =[
@@ -24,8 +26,8 @@ function App() {
     
       <div className="App">
        {gameStage === 'start' && <StartScreen />}
-       {gameStage === 'game' && <StartScreen />}
-       {gameStage === 'end' && <StartScreen />}
+       {gameStage === 'game' && <Game />}
+       {gameStage === 'end' && <GameOver />}
       
       </div>
     
