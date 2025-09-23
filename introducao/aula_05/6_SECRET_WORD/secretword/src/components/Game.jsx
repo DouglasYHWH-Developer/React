@@ -3,9 +3,14 @@ import './Game.css';
 
 const Game = ({verifyLetter}) => {
   return (
-    <div>
-        <h1>Game</h1>
-        <button onClick={verifyLetter}>Finalizar Jogo</button>
+    <div className="game">
+      <p class="points">
+        <span>Pontuação: 000</span>
+      </p>
+       <h1>Adivinhe a palavra</h1>
+        <h3 class="tip">
+          Dica sobre a palavra: 
+        </h3>
     </div>
     
   )
