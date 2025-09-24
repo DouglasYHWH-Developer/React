@@ -1,20 +1,34 @@
 
 import './Game.css';
 
-const Game = ({verifyLetter}) => {
+const Game = ({
+  verifyLetter, 
+  pickedWord, 
+  pickedCategory, 
+  letters,
+  guessedLetters,
+  wrongLetters,
+  guesses,
+  score
+}) => {
   return (
     <div className="game">
       <p class="points">
-        <span>Pontuação: 000</span>
+        <span>Pontuação: {score}</span>
       </p>
        <h1>Adivinhe a palavra</h1>
         <h3 class="tip">
-          Dica sobre a palavra: <span>Dica...</span>
+          Dica sobre a palavra: <span>{pickedCategory}</span>
         </h3>
-        <p>Você ainda tem XXX tentaivas</p>
+        <p>Você ainda tem {guesses} tentaivas</p>
         <div class="wordContainer">
-          <span className='letter'>A</span>
-          <span className="blankSquare"></span>
+          {letters.map((letters, i) => (
+            guessedLetters.includes(letters) ?(
+              <span key={i} className="letter">{letter}</span>
+            ): (
+              <span key={i} className="blankSquare"></span>
+            )
+          ))}
         </div>
         <div class="letterContainer">
           <p>Tente adivinhar uma letra da palavra: </p>
@@ -25,8 +39,9 @@ const Game = ({verifyLetter}) => {
         </div>
         <div class="wrongLetterContainer">
           <p>Letras já utilizadas</p>
-          <span>a,</span>
-          <span>b,</span>
+          {wrongLetters.map((letters, i) =>(
+            <span key={i}>{letters}, </span>
+          ))}
         </div>
     </div>
     
