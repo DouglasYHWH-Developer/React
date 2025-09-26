@@ -91,15 +91,26 @@ function App() {
         ...actualWrongLetters,
         normalizedLetter,
       ]);
+      setGuesses((actualGuesses) => actualGuesses - 1)
     }
-  };
+  }; 
 
-   console.log(guessedLetters)
-    console.log(wrongLetters)
+  const clearLetterStates = () =>{
+    setGuessedLetters([])
+  }
+
+  useEffect(() =>{
+    if(guesses <= 0){
+      //reset all states
+
+      setGameStage(stages[2].name);
+    }
+  }, [guesses])
 
   // restarts the game
   const retry = () => {
     setGameStage(stages[0].name)
+    setGuesses(3)
   }
 
   return (
