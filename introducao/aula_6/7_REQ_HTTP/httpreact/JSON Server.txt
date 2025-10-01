@@ -5,3 +5,5 @@
     Podemos entender isso como uma etapa de preparação para APIs reais;
     Ou seja, atingir o mesmo resultado mas sem precisar de uma estrutura no back-end;
     Vamos criar um projeto e instalar o JSON server;
+ 
+    Para instalar o JSON server, no terminal digite o comando: npm i json-server
