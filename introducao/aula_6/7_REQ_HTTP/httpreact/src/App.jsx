@@ -38,6 +38,10 @@ function App() {
     });
   }
 
+// 3- carregamento dinâmico
+
+
+
   return (
     <>
       <div className="App">
