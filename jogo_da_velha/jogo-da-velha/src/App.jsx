@@ -1,9 +1,9 @@
-import Square from "./Board"
+import Board from "./Board"
 function App() {
 
   return (
     <>
-      <Square />
+      <Board />
     </>
   )
 }
