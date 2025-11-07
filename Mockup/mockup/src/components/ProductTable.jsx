@@ -1,20 +1,39 @@
-import React from 'react'
+import ProductCategoryRow from './ProductCategoryRow';
+import ProductRow from "./ProductRow"
 
 function ProductTable({products}) {
   const rows = [];
-  const lastCategory = null;
+  let lastCategory = null;
 
   products.forEach((product) =>{
     if(product.category !== lastCategory){
       rows.push(
-        <ProductCategoryRow />
-      )
+        <ProductCategoryRow 
+          category={product.category}
+          key={product.category}
+        />
+      );
     }
+    rows.push(
+      <ProductRow 
+        product={product}
+        key={product.name}
+      />
+    );
+    lastCategory = product.category;
   })
   
   return (
-    <div></div>
+    <table>
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>{rows}</tbody>
+    </table>
   )
 }
 
-export default ProductTable
+export default ProductTable;

@@ -1,11 +1,11 @@
 import ProductTable from "./ProductTable";
 import SearchBar from "./SearchBar";
 
-function FilterableProductTable({product}){
+function FilterableProductTable({products}){
     return (
         <div>
             <SearchBar />
-            <ProductTable products={product}/>
+            <ProductTable products={products}/>
         </div>
     )
 }
