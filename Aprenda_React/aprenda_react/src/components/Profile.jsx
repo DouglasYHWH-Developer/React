@@ -1,21 +1,20 @@
 import Avatar from "./Avatar"
 import Card from "./Card"
 import PackingList from "./PackingList"
+import List from "./List"
 
 function Profile() {
   return (
    <>
-    <Card>
-      <Avatar 
-        size={100}
-        person={{
-          name: 'Katsuko Saruhashi',
-          imageId: 'YfeOqp2'
-        }}
-      />
-    </Card>
-    <PackingList />
-     <div>
+   
+   </>
+  )
+}
+
+export default Profile
+
+/**
+ *  <div>
         <img 
         src="https://i.imgur.com/MK3eW3As.jpg"
         alt="Katherine Johnson"
@@ -33,9 +32,4 @@ function Profile() {
       alt="Alan L. Hart"
     />
     </div>
-   
-   </>
-  )
-}
-
-export default Profile
+ */
