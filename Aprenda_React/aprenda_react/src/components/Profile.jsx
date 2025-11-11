@@ -1,5 +1,6 @@
 import Avatar from "./Avatar"
 import Card from "./Card"
+import PackingList from "./PackingList"
 
 function Profile() {
   return (
@@ -13,6 +14,7 @@ function Profile() {
         }}
       />
     </Card>
+    <PackingList />
      <div>
         <img 
         src="https://i.imgur.com/MK3eW3As.jpg"
