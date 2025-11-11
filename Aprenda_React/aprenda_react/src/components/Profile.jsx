@@ -1,6 +1,18 @@
+import Avatar from "./Avatar"
+import Card from "./Card"
+
 function Profile() {
   return (
    <>
+    <Card>
+      <Avatar 
+        size={100}
+        person={{
+          name: 'Katsuko Saruhashi',
+          imageId: 'YfeOqp2'
+        }}
+      />
+    </Card>
      <div>
         <img 
         src="https://i.imgur.com/MK3eW3As.jpg"
@@ -19,6 +31,7 @@ function Profile() {
       alt="Alan L. Hart"
     />
     </div>
+   
    </>
   )
 }
