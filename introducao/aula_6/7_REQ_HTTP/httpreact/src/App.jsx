@@ -2,15 +2,17 @@ import './App.css';
 
 import { useState, useEffect } from 'react';
 
+
 //4- custom hook
 import { useFetch } from './hooks/useFetch';
+
 
 const url = "http://localhost:3000/products";
 
 function App() {
   const [products, setProducts] = useState([]); // da aula 1
 // 4 - custom hooks
-  const {data: items} = useFetch(url);
+  const {data: items, httpConfig} = useFetch(url);
 
   const [name, setName] = useState(""); // da aula 2
   const [price, setPrice] = useState(""); // da aula 2
@@ -32,8 +34,9 @@ function App() {
     e.preventDefault()
     const product = {
      name, // name: name
-     price // price : price
+     price, // price : price
     };
+   /*
     
     const res = await fetch(url,{
       method: "POST",
@@ -48,6 +51,10 @@ function App() {
   const addedProduct = await res.json();
 
   setProducts((prevProducts) => [...prevProducts, addedProduct])
+    */
+
+  //5- refatorando post
+  httpConfig(product, "POST")
   
   setName("");
   setPrice("");
