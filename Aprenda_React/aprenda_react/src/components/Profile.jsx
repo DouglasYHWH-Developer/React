@@ -13,6 +13,12 @@ function Profile() {
             alt="Aklilu Lemma"
         />
     </div>
+    <div>
+      <img
+      src="https://i.imgur.com/QIrZWGIs.jpg"
+      alt="Alan L. Hart"
+    />
+    </div>
    </>
   )
 }
