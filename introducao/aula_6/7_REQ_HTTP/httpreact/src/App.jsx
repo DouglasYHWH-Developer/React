@@ -61,6 +61,11 @@ function App() {
 
   };
 
+  //8 - desafio 6
+    const handleRemove = (id) => {
+      httpConfig(id, "DELETE")
+    }
+
   return (
     <>
       <div className="App">
@@ -72,6 +77,7 @@ function App() {
           {items && items.map((product) =>(
             <li key={product.id}>
               {product.name} - R$: {product.price}
+              <button onClick={() => handleRemove(product.id)}>Excluir</button>
             </li>
           ))}
         </ul>}

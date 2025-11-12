@@ -21,39 +21,9 @@
       "price": "12"
     },
     {
-      "id": "80ff",
-      "name": "teste",
-      "price": "12"
-    },
-    {
-      "id": "1cb5",
-      "name": "teste",
-      "price": "12"
-    },
-    {
-      "id": "8106",
-      "name": "Capa de chuva",
-      "price": "50.50"
-    },
-    {
       "id": "0ebe",
       "name": "Teclado",
       "price": "110"
-    },
-    {
-      "id": "f7c2",
-      "name": "Teclado",
-      "price": "120"
-    },
-    {
-      "id": "64b6",
-      "name": "mouse",
-      "price": "60"
-    },
-    {
-      "id": "a9e6",
-      "name": "mouse",
-      "price": "60"
     },
     {
       "id": "6dcc",
@@ -79,21 +49,6 @@
       "id": "79af",
       "name": "Suporte de microfone",
       "price": "60"
-    },
-    {
-      "id": "bd2e",
-      "name": "Suporte de microfone",
-      "price": "60"
-    },
-    {
-      "id": "3590",
-      "name": "mouse",
-      "price": "60"
-    },
-    {
-      "id": "3fe9",
-      "name": "",
-      "price": ""
     }
   ]
 }

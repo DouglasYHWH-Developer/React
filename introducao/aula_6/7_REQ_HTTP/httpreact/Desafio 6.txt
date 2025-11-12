@@ -1,0 +1,8 @@
+        Desafio 6
+    Crie um botão nos produtos;
+    Este botão deve disparar uma função de remoção de produto;
+    A URL deve ser a mesma da API + o id do produto: products/1;
+    Você vai precisar identificar quando é uma requisição de DELETE,
+para mudar o verbo a http das configurações;
+    Utilize a idea do método POST para derivar para o delete, pode
+ser com if/else; 
