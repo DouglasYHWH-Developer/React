@@ -74,6 +74,26 @@
       "id": "0984",
       "name": "Suporte monitor",
       "price": "120"
+    },
+    {
+      "id": "79af",
+      "name": "Suporte de microfone",
+      "price": "60"
+    },
+    {
+      "id": "bd2e",
+      "name": "Suporte de microfone",
+      "price": "60"
+    },
+    {
+      "id": "3590",
+      "name": "mouse",
+      "price": "60"
+    },
+    {
+      "id": "3fe9",
+      "name": "",
+      "price": ""
     }
   ]
 }
