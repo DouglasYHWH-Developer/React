@@ -1,3 +1,4 @@
+/********************************Aula 1********************************************* */
 // 1 - var, let e const
 var x = 10;
 var y = 15;
@@ -37,6 +38,8 @@ logName()
 console.log(name)
 
 //name = "teste"; // Uncaught TypeError: Assignment to constant variable.
+
+/*********************************Aula  2******************************************** */
 
 // 2- arrow function
 const sum = function sum(a, b){ // função normal ex.: funciton sum(){}
@@ -106,3 +109,6 @@ const user3 = {
 }
 
 user3.sayUserName()
+
+/**********************************Aula 3******************************************* */
+
