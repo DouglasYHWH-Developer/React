@@ -79,7 +79,7 @@ testeArrow();
     }
 }
 
-user1.sayUserName()
+//user1.sayUserName()
 
 // 2- Self: “Copiei o this do meu pai numa variável e uso isso depois.”
 const user2 = {
@@ -93,7 +93,7 @@ const user2 = {
     }
 }
 
-user2.sayUserName()
+//user2.sayUserName()
 
 // 3- “Forço essa função a sempre ter esse this, independente de quem chamar.”
 
@@ -108,7 +108,32 @@ const user3 = {
     }
 }
 
-user3.sayUserName()
+//user3.sayUserName()
 
 /**********************************Aula 3******************************************* */
 
+// filter
+
+const arr = [1, 2, 3, 4, 5];
+
+console.log(arr)
+
+const highNumbers = arr.filter((n) => {
+    if(n >= 3){
+        return n
+    }
+})
+console.log(highNumbers)
+
+const users = [
+    {name:"Douglas", available: true},
+    {name:"Pedro", available: false},
+    {name:"João", available: false},
+    {name:"Marcos", available: true},
+]
+
+const availableUser = users.filter((user) => user.available)
+const notAvailableUser = users.filter((user) => !user.available)
+
+console.log(availableUser)
+console.log(notAvailableUser)
