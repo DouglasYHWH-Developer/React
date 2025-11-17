@@ -1,0 +1,6 @@
+            Templates literals
+    O recurso de tempalte literals permite concatenar uma string
+de forma mais simples;
+    Podemos colocar as variáeis entre o texto;
+    E as variáveis são colocadas desta maneira: ${variável}
+    Vamos ver na prática!
