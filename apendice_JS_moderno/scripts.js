@@ -183,3 +183,6 @@ const produtosDetalhes = {
 
 const{name1: produtoNome, price, category: produtoCategoria, color} = produtosDetalhes;
 console.log(`${produtoNome}, ${price}, ${produtoCategoria}, ${color}`)
+
+/**********************************Aula 7******************************************* */
+// Classe

@@ -1,0 +1,7 @@
+        Classes
+    As classes são ecursos fundamentais para programar com orientação
+a objetos;
+    Agora o JS tem este recursos implementados, onde temos acesso a:
+constructor, propriedades, métodos e mais;
+    Antes as classes eram baseadas em funções(construtor functions);
+    Vamos ver na prática! 
