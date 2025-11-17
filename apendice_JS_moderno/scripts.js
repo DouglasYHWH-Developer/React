@@ -155,3 +155,11 @@ products.map((product) => {
 })
 
 console.log(products)
+
+/**********************************Aula 5******************************************* */
+
+const userName = 'Matheus';
+const age = 30;
+
+console.log("teste")
+console.log(`O nome do usuário é ${userName} e ele tem ${age} anos`)
