@@ -158,8 +158,28 @@ console.log(products)
 
 /**********************************Aula 5******************************************* */
 
+//Template Literals
 const userName = 'Matheus';
 const age = 30;
 
 console.log("teste")
 console.log(`O nome do usuário é ${userName} e ele tem ${age} anos`)
+
+/**********************************Aula 6******************************************* */
+// Destructuring
+
+const frutas = ["Maçã", "Laranja", "Mamão"];
+const [f1, f2, f3] = frutas;
+console.log(f1)
+console.log(f2)
+console.log(f3)
+
+const produtosDetalhes = {
+    name1: "Mouse",
+    price: 99.99,
+    category: "Periféricos",
+    color: "Cinza",
+}
+
+const{name1: produtoNome, price, category: produtoCategoria, color} = produtosDetalhes;
+console.log(`${produtoNome}, ${price}, ${produtoCategoria}, ${color}`)
